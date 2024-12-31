@@ -359,8 +359,8 @@ namespace microbiti2cesp32v5 {
     //% group="9.Make.com"  
     //% blockId=make block="Send Make key"
     //% weight=16 
-    export function make() {
-        sendi2cmessage("make=")
+    export function make(key: string, value1: string, value2: string, value3: string) {
+        sendi2cmessage("make="+key+","+value1+","+value2+","+value3)
 	basic.pause(200)
     }
 	
