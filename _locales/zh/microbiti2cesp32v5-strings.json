@@ -41,5 +41,5 @@
     "microbiti2cesp32v5.esp32_analogwrite|block": "ESP32類比寫入腳位 %pin 值 %pin1",
     "microbiti2cesp32v5.esp32_digitalread|block": "ESP32數位讀取腳位 %pin ",
     "microbiti2cesp32v5.esp32_analogread|block": "ESP32類比讀取腳位 %pin ",
-    "microbiti2cesp32v5.make|block": "傳送訊息給Make鑰匙 %key value1 %value1 value2 %value2 value3 %value3 "
+    "microbiti2cesp32v5.make|block": "傳送訊息給Make鑰匙 %key | value1 %value1 | value2 %value2 | value3 %value3 "
 }
